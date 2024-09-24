@@ -1,0 +1,83 @@
+/* .chates{
+  background-image: url('../../../public/images/10.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+} */
+.navbareee{
+
+}
+
+.users{
+height: 60px;
+display: flex;
+text-align: right;
+margin-top: 10p;
+align-items: center;
+justify-content: end;
+
+
+}
+.adddd{
+background-color: #1eb2a6;
+padding: 10px;
+border-radius: 14px;
+font-size: 16px;
+width: 25%;
+border: none;
+color: #FFF;
+text-align: center;
+}
+
+.allusere{
+margin-left: 10px;
+}
+.allusere h2{
+color: #1eb2a6;
+}
+.searchee{
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+  /* border-bottom: 2px solid #1a6b65; */
+  margin-bottom: 10px;
+}
+.user{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+grid-gap: 10px;
+margin-top: 10px;
+}
+
+.userChate{
+border: 1px solid #1eb2a6;
+margin-bottom: 10px;
+border-radius: 8px;
+padding: 6px;
+}
+
+.userChate img{
+width: 100%;
+object-fit: cover;
+}
+.userChate .userChatInfo{
+  text-align: center;
+  background-color: #1eb2a6;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 17px;
+}
+.userChate .userChatInfo:hover{
+background-color: #FFF; 
+}
+.userChate .userChatInfo span{
+color: #FFF;
+
+}
+.userChate .userChatInfo span:hover{
+color:#18847c ;
+}
+
+

@@ -1,0 +1,102 @@
+.savee{
+    background-color: #1eb2a6;
+border-radius: 24px;
+margin-top: 35px;
+width: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-left: 50%;
+transform: translateX(-50%);
+margin-bottom: 20px;
+border: none;
+}
+.savee h2{
+    color: #CCC;
+}
+.thr{
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    padding: 14px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.marr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+.marr h3{
+    font-size: 16px;
+    color: #DDD;
+    margin-bottom: 5px;
+    text-align: start;
+    font-weight: 500;
+}
+.marr span{
+    color: #1eb2a6;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #FFF;
+    padding: 2px 4px;
+    border-radius: 50%;
+}
+.optionsss{
+    padding: 1px; 
+    margin-top: 3px;
+}
+.buttonsss{
+    margin: 6px ;
+ width: 50%;
+    outline: none;
+    color: #FFF;
+    background-color: #18847c;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+.buttonsss .sendee{
+    height: 50px;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #FFF;
+    background-color: transparent;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+}
+.buttonssss{
+    margin: 8px;
+    width: 50%;
+    outline: none;
+    color: #FFF;
+    background-color: #18847c;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .savee{
+        margin-left: 30%;
+        transform: translateX(-35%);
+        width: 475px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .savee{
+        margin-left: 17%;
+        transform: translateX(-20%);
+        width: 350px;
+    }
+  }

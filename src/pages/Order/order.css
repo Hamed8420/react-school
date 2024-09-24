@@ -1,0 +1,285 @@
+
+    .conte{
+        /* background-image: url('../../../public/images/11.webp');
+        background-size: cover;
+        background-position: center; */
+        width: 100%;
+        height: 100vh;
+        background-color: #DDD;
+    }
+    .row22{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .row22 a {
+        background-color: #4e1b9c;
+        width: 25%;
+        /* height: 40px; */
+        text-align: center;
+        padding: 8px;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #FFF;
+        font-weight: 500;
+    }
+        
+          .mor{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 50%;
+            margin: 0px 12px;
+          }
+
+          .mor .all{
+            padding: 10px 15px;
+            background-color: #4e1b9c;
+            color: #FFF;
+            font-weight: 500;
+            border: none;
+            margin: 0 3px;
+            border-radius: 16px;
+            cursor: pointer;
+            /* box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%); */
+            transition: 0.5s;
+            font-size: 13px;
+          }
+          .all:hover{
+            background-color: #FFF;
+            color:#4e1b9c ;
+          }
+       
+    .tara{
+        background-color: transparent;
+        width: 90%;
+        padding: 27px;
+        border-radius: 32px;
+        text-align: center;
+        transition: all .3s ease;
+        margin: auto;
+    }
+.tara thead th{
+    color: #8b3dff;
+}
+    .tarae{
+        background-color: transparent;
+        width: 90%;
+        padding: 27px;
+        border-radius: 32px;
+        text-align: center;
+        transition: all .3s ease;
+        margin: auto;
+    }
+    
+        thead tr th
+        {
+            padding: 15px;
+            font-size: 16px;
+            color: #18847c;
+        }
+
+    tbody tr{
+        background-color: #6bb6b18a;
+    
+    }
+         tbody .student td {
+            height: 40px;
+            border-bottom: 2px solid rgba(7, 32, 253, 0.18);
+            color: #FFF;
+            font-size: 15px;
+            font-weight: 500;
+            border-radius: 8px;
+            background-color: #4e1b9c;
+        
+        }
+        td a{
+            color: #CCC;
+        }
+
+        .access ,.unaccess{
+            padding: 6px 13px;
+            font-weight: 500;
+            color: #DDD;
+            border-radius: 9px;
+            font-size: 16px;
+            margin: 0;
+        
+        }
+        .access:hover ,.unaccess:hover{
+            color: #FFF;
+        }
+        .access{
+            background-color: #080;
+        }
+        .unaccess{
+            background-color: #F00;
+        }
+
+        /* .accepted {
+            background-color: green;
+          }
+          
+          .unaccepted {
+            background-color: red;
+          } */
+
+
+    
+
+        tr:last-child td {
+            border: none;
+        }
+     
+     
+        .cellAction{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+        }
+  
+      
+        .deleteIcon{
+            padding: 5px;
+            margin-right: 3px;
+            color: #DDD;
+            cursor: pointer;
+
+        }
+        .deleteIcon:hover{
+            color: #00F;
+        }
+        .editee a:hover{
+            color: #00F;
+        }
+
+        
+        @media screen and (max-width: 992px) {
+            .conte{
+                height: 100vh;
+            }
+            .row22{
+                justify-content: space-around;
+                padding: 20px 2px;
+            }
+            .tara .access,.unaccess
+            {
+                width: 70px;
+                font-size: 12px;
+                padding: 0;
+                background: transparent;
+            }
+            .tarae{
+                padding: 27px 10px;
+                width: 80%;
+                margin-left: 20px;
+            }
+
+   .row22 h2{
+    display: none;
+   }
+   .row22 a{
+    width: 20%;
+    padding: 4px;
+    font-size: 16px;
+}
+   }
+
+
+   @media screen and (max-width: 680px) {
+    .row22{
+       display: block;
+    }
+    .gtr{
+        margin-top: 30px;
+    }
+.tarae{
+    width: 65%;
+}
+    .mor{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        margin-left: 0;
+
+    }
+    .row22 a{
+display: inline-block;
+    }
+    .tara td:nth-child(5)
+   {
+    display: none;
+   }
+
+   .tara th:nth-child(5)
+   {
+    display: none;
+   }
+   .tarae td:nth-child(5){
+    display: none;
+   }
+   .tarae td:nth-child(6){
+    display: none;
+   }
+
+   .tarae th:nth-child(5){
+    display: none;
+   }
+   .tarae th:nth-child(6){
+    display: none;
+   }
+
+   }
+
+   @media screen and (max-width: 525px) {
+    .row22 .mor{
+        width: 100%;
+
+    }
+    .row22 .mor .all{
+        padding: 6px;
+    }
+.tara{
+    margin-left: 0;
+    padding-left: 0;
+    width: 75%;
+    padding-top: 0;
+}
+.tarae{
+    margin-left: 0;
+    width: 45%;
+}
+.tara td{
+    /* width: 90px; */
+    text-align: center;
+}
+.tara td:nth-child(3)
+{
+ display: none;
+}
+.tara td:last-child
+{
+ display: none;
+}
+.tara th:last-child{
+    display: none;
+}
+
+.tara th:nth-child(3)
+{
+ display: none;
+}
+
+.tarae td:last-child
+{
+ display: none;
+}
+.tarae th:last-child{
+    display: none;
+}
+
+
+   }
+

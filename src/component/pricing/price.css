@@ -1,0 +1,126 @@
+.price .items {
+    padding: 40px;
+    text-align: center;
+  }
+  .price h1 {
+    font-size: 30px;
+    color: #1eb2a6;
+  }
+  .price h1 span {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #000;
+  }
+  .price p {
+    color: grey;
+    margin: 40px 0;
+  }
+  /*--------------faq-------------*/
+  .faq .contain {
+    max-width: 70%;
+    border-radius: 5px;
+  }
+  .faq .box {
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  .faq button {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 20px;
+  }
+  .faq h2 {
+    font-weight: 500;
+    color: #1eb2a6;
+  }
+  .faq p {
+    padding: 20px;
+    color: #1eb2a6;
+  }
+  .faq .accordion:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+  }
+  .faq .accordion:hover h2{
+    color: #FFF;
+  }
+  
+  /*--------------faq-------------*/
+
+  
+  img {
+    width: 85%;
+    height: 100px;
+    border-radius: 1rem 1rem 0 0;
+  }
+
+
+  .title {
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+
+  
+  .padding{
+    padding: 0;
+  }
+
+
+  .teach{
+    margin-top: 6px;
+  }
+  
+  .subjecte .subimge {
+    height: 100%;
+    padding: 10px;
+    width: 100%;
+}
+.subjecte .subimge img {
+  height: 100%;
+  width: 100%;
+  /* padding: 10px; */
+  border-radius: 25px;
+  object-fit: cover;
+}
+  .teach h4{
+    font-size: 16px;
+    color: #1eb2a6;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 5PX;
+  }
+  .admi h1{
+    color: #18847c;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+  }
+  .admi h3{
+    /* width: 100%; */
+    font-size: 16px;
+    /* width: 107px; */
+    text-align: start;
+    line-height: 20px;
+    color: #999;
+    font-weight: 400;
+  }
+  .outline-b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: none;
+    border: 1px solid #1eb2a6;
+    width: 100%;
+    transition: 0.5s;
+    text-align: start;
+    width: 65%;
+    border-radius: 8px;
+    padding: 3px;
+  }
+  .outline-b a{
+    font-size: 12px;
+    color: #1eb2a6;
+  }

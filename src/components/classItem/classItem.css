@@ -1,0 +1,75 @@
+.sections{
+    /* background-image: url('../../../public/images/human/4.jpg');
+    background-size: cover; */
+    /* background-position: center; */
+    background-color: #DDD;
+    height: 100vh;
+    width: 100%;
+    flex: 6;
+}
+.paree{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    /* text-align: center; */
+    margin: 7px;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.paree h4{
+    color: #8b3dff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.paree h4 span{
+    color: #000;
+    font-size: 15px ;
+    font-family: sans-serif;
+    margin-right: 10px;
+    padding: 5px;
+}
+.pare{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    align-items: center;
+    padding: 5px;
+    margin-top: 5px;
+}
+.pare button{
+    margin: 5px;
+    padding: 5px 9px;
+    background-color: #8b3dff;
+    border-radius: 10px;
+}
+.pare button a{
+    color: #FFF;
+}
+.pare button a:hover{
+color: #8b3dff;
+
+}
+.pare button:hover{
+    background-color: #CCC;
+}
+
+.butte{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    padding: 5px;
+}
+.butte button{
+    outline: none;
+    padding: 6px;
+    color: #FFF;
+    border-radius: 9px;
+    background-color: #4e1b9c;
+    margin-left: 4px;
+}
+.butte .ed{
+    border: none;
+    color: #DDD;
+    text-align: center;
+}

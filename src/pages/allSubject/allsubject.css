@@ -1,0 +1,122 @@
+.subjects{
+    /* background-image: url('../../../public/images/new/14.jpg');
+    background-size: cover;
+    background-position: center; */
+    background-color: #DDD;
+    flex: 6 1;
+    /* height: 100vh; */
+    width: 100%;
+}
+
+.sara{
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    gap: 10px;
+    margin-top: 2%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.servi-item{
+    background-color: #FFF;
+    border: 1px solid #bae1f2;
+    border-radius: 8px;
+    padding: 5px;
+    /* width: 250px; */
+    border-radius: 22px 0;
+}
+
+.imge .service-imag{
+    width: 100%;
+    height: 130px;
+    border-radius: 22px 0;
+}
+.par{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    align-items: center;
+    padding: 5px;
+    margin-top: 5px;
+}
+.par button{
+    cursor: pointer;
+    background-color: #8b3dff;
+    padding: 3px 15px;
+    margin: 0;
+    border-radius: 4px;
+    margin-right: 4px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+.par button:hover{
+background-color: #CCC;
+}
+.par button a:hover{
+    color: #8b3dff;
+    }
+.par button a{
+    color:#FFF ;
+}
+.re .des{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3px;
+    padding: 5px 10px;
+}
+.des h4{
+    margin: 0;
+    font-size: 15px;
+    color: #000;
+    font-family: sans-serif;
+    text-align: center;
+    /* margin-bottom: 30px; */
+    transition: 0.3s;
+}
+.des h4:hover{
+    color: #CCC;
+}
+.des h4 span{
+    color: #8b3dff;
+    margin-left: 3px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.but{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.but button{
+    outline: none;
+    padding: 6px;
+    color: #FFF;
+    border-radius: 9px;
+    background-color: #4e1b9c;
+    margin-left: 4px;
+}
+.but button a{
+    color: #FFF;
+}
+
+@media screen and (max-width: 545px) {
+    .sara{
+      grid-template-columns: repeat(2,1fr);
+      margin-left: 0;
+      padding: 5px ;
+    }
+  }
+
+  @media screen and (max-width: 435px) {
+    .sara{
+      grid-template-columns: 1fr;
+margin-left: 20px;
+padding: 5px 10px;
+    }
+  }

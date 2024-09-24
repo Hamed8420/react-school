@@ -1,0 +1,263 @@
+.Schtual{
+
+  flex: 6;
+  /* height: 100%; */
+}
+.class-li{
+  margin-top: 0;
+  /* background-image: url('../../../public/images/human/5.jpg');
+  background-size: cover;
+  background-position: center; */
+  background-color: #DDD;
+/* height: 100vh; */
+}
+
+.tes{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+}
+.tes h2{
+  font-size: 24px;
+  color: #4e1b9c;
+
+  margin-bottom: 10px;
+}
+.butee{
+  background-color: #FFF;
+    padding: 5px 7px;
+    border-radius: 6px;
+}
+.butee a{
+  font-size: 16px;
+  font-weight: 600;
+}
+.display{
+  display: flex;
+}
+.side h5{
+  height: 90px;
+  margin: 20px 10px;
+  font-size: 16px;
+  color: #8b3dff;
+  font-family: "poppins", "sans-serif";
+  font-weight: 500;
+  padding: 10px;
+}
+
+.side h5:first-child {
+height: 50px;
+margin-top: 20px;
+}
+  .roba{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .robaaa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .roba h5{
+    height: 45px;
+    margin: 20px 10px 10px;
+    font-size: 16px;
+    color: #8b3dff;
+    font-family: "poppins", "sans-serif";
+    font-weight: 500;
+    padding: 10px;
+  }
+  .robaaa h5{
+    height: 45px;
+    margin: 20px 10px 10px;
+    font-size: 16px;
+    color: #8b3dff;
+    font-family: "poppins", "sans-serif";
+    font-weight: 500;
+    padding: 10px;
+  }
+
+
+  .sare{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    height: 550px;
+
+  }
+  .saree{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    height: 550px;
+
+  }
+  .class-lis{
+    width: 90%;
+  }
+
+  .service{
+    border: 1px solid #18847c;
+    border-radius: 10px;
+
+        }
+        .serviceeee{
+          border: 1px solid #4e1b9c;
+          border-radius: 10px;
+          background-color: #FFF;
+          box-shadow:0px 1px 3px 1px rgb(0 0 0 / 0.6);
+      
+              }
+.temp{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+    padding: 0px 5px;
+    margin-top: 11px;
+}
+.temp button{
+  outline: none;
+  padding: 6px;
+  color: #FFF;
+  border-radius: 9px;
+  font-size: 12px;
+  margin: 3px 5px;
+  background-color: #4e1b9c;
+  font-weight: 500;
+}
+.temp button:hover{
+  color:#4e1b9c;
+  background-color: #FFF;
+}
+
+.temp a{
+  color: #FFF;
+}
+.temp a:hover{
+  color:#4e1b9c;
+  background-color: #FFF;
+}
+.tra{
+  margin: 8px 5px 0 0;
+  font-size: 13px;
+  color: #4e1b9c;
+  font-weight: 600;
+}
+.tra h3{
+text-align: center;
+}
+  
+.tera h4{
+  text-align: center;
+}
+.tera h4 span{
+
+  color: #000;
+}
+
+@media screen and (max-width: 992px) {
+  .class-lis {
+  width: 700px
+}
+
+.side h5 {
+  
+  margin: 20px 0px;
+  padding: 10px 2px;
+}
+
+}
+
+@media screen and (max-width: 882px) {
+  .class-lis {
+  width: 600px
+}
+
+/* .side h5 {
+  
+  margin: 20px 0px;
+  padding: 10px 2px;
+} */
+
+}
+
+@media screen and (max-width: 768px) {
+  .class-lis {
+    width: 600px
+  }
+  .side h5 {
+  
+  margin: 20px 5px;
+  padding: 10px 5px;
+}
+}
+
+@media screen and (max-width: 675px) {
+  .class-lis {
+    width: 550px
+  }
+  .side h5 {
+  
+  margin: 20px 0px;
+  padding: 10px 0px;
+}
+/* .temp{
+  display: none;
+} */
+.tra h3 {
+  text-align: start;
+  margin-left: 2px;
+  font-size: 12px;
+}
+.tera h4 {
+  text-align: start;
+}
+.tera h4 span {
+  /* text-align: center; */
+  margin-left: 3px;
+}
+}
+
+@media screen and (max-width: 575px) {
+  .class-lis {
+    width: 450px
+  }
+  .serviceeee{
+    width: 70px;
+    height: 100px;
+  }
+  .saree{
+    grid-template-columns: repeat(5, 80px);
+  }
+  .sare{
+    grid-template-columns: repeat(5, 80px);
+    gap: 0;
+  }
+  .robaaa h5{
+    margin: 10px 5px 10px;
+  }
+  .robaaa{
+    width: 420px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .class-lis {
+    width: 350px
+  }
+
+  .roba h5{
+    margin: 20px 0 10px;
+  }
+  .robaaa h5{
+    margin: 20px 0 10px;
+  }
+}
+
+
+

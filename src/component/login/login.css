@@ -1,0 +1,129 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 800px;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    /* margin-top: 50px; */
+  }
+.myweb{
+    padding: 0.75rem;
+    background: #FFF;
+    width: 100%;
+    margin: 40px 0 15px 0;
+    border-radius: 20px;
+    border-width: 1px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+.test ::placeholder{
+   color:#1eb2a6;
+}
+.error-message {
+   color: red;
+   font-weight: bold;
+ }
+ 
+.form{
+    background: #FFF;
+    width: 100%;
+    padding: 16px;
+    border-radius: 20px;
+    border-width: 1px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+
+}
+ .test{
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+ }
+ .test label{
+    display: block;
+    text-align: start;
+    font-size: 16px;
+    -webkit-margin-end: 12px;
+    margin-inline-end:13px;
+    margin-bottom: 10px;
+    font-weight:600;
+    transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;;
+    transition-duration:200ms;
+    opacity: 1;
+ }
+ .test input{
+  position: relative;
+    width: 95%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 6px;
+    transition-duration: 200ms;
+    border: 1px solid #CCC;
+    display: flex;
+    text-align: start;
+    margin-left: 5px;
+    padding: 10px;
+
+ }
+ .show-button{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  z-index: 2;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-size: 13px;
+  background: #1eb2a6;
+  color: #FFF;
+  font-weight: 400;
+
+ }
+ .Log{
+  font-size: 16px;
+  width: 80%;
+  background-color: #1eb2a6;
+  color: #FFFF;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  margin-left: 50%;
+  transform: translateX(-50%);
+ }
+ .go{
+  text-align: left;
+    margin-top: 20px;
+    padding: 10px;
+ }
+ .go p{
+  color: #1eb2a6;
+    font-size: 16px;
+    font-weight: 500;
+ }
+ .link{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .link li{
+  background-color: #1eb2a6;
+  padding: 10px 20px;
+  border-radius: 8px;
+ }
+ .link li a{
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
+ }
+ /* .go li{
+  color: #1eb2a6;
+  width: 100%;
+ } */
+ 

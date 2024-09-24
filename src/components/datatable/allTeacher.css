@@ -1,0 +1,189 @@
+
+.contt{
+  /* background-image: url('../../../public/images/7.jpg');
+  background-size: cover;
+  background-position: center; */
+  width: 100%;
+  height: 100vh;
+  background-color: #DDD;
+}
+  .teste {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 1%;
+    }
+
+   .teste p{
+      margin: 20px;
+      font-size: 25px;
+      color: #18847c;
+      font-family: "poppins", "sans-serif";
+      font-weight: bold;
+   
+  }
+
+
+ 
+.tame{
+  background-color: #FFF;
+  width: 90%;
+  padding: 15px;
+  border-radius: 32px;
+  text-align: center;
+  transition: all .3s ease;
+  margin: auto;
+  box-shadow: 0 5px 25px 3px rgb(0 0 0 / 6%);
+}
+
+  /* .tame thead tr th
+  {
+      padding: 15px;
+   
+      font-size: 16px;
+      color: #18847c;
+  } */
+  .tame thead tr th
+  {
+      padding: 15px;
+   
+      font-size: 16px;
+      color: #8b3dff;
+  }
+
+  /* .tame tbody td {
+      height: 50px;
+      border-bottom: 2px solid rgba(7, 32, 253, 0.18);
+      color: #DDD;
+      font-size: 13px;
+      font-weight: 500;
+      background-color: #6bb6b18a;
+      border-radius: 8px;
+  
+  } */
+
+  .tame tbody td {
+    height: 50px;
+    border-bottom: 2px solid rgba(7, 32, 253, 0.18);
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #4100a1;
+    border-radius: 8px;
+
+}
+  .tame tbody td:hover{
+      background-color: #DDD;
+      /* color:#6bb6b18a ; */
+
+  }
+  .tame tbody td:hover{
+    background-color: #FFF;
+    color:#4100a1 ;
+
+}
+  .ty .cellAction{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 3px;
+  }
+
+
+  
+  /* .view{
+      color: #FFF;
+      font-size: 12px;
+      
+      
+      border-radius: 8px;
+  } */
+  .view{
+    color: #4100a1;
+    font-size: 12px;
+    
+    
+    border-radius: 8px;
+}
+  /* .view:hover
+  {
+      background-color: #0e887f;
+      padding: 7px 5px;
+  } */
+  .view:hover
+  {
+      background-color: #4100a1;
+      padding: 7px 5px;
+  }
+
+
+  tr:last-child td {
+      border: none;
+  }
+
+ 
+
+  .studentImage{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 3px;
+      text-align: center;
+  
+  }
+
+  @media screen and (max-width:555px){
+td:nth-child(4)
+{
+  display: none;
+}
+th:nth-child(4)
+    {
+      display: none;
+    }
+
+    td:nth-child(5)
+{
+  display: none;
+}
+th:nth-child(5)
+    {
+      display: none;
+    }
+    .tame {
+      background-color: transparent;
+      width: 425px;
+      padding: 0px 5px;
+      border-radius: 32px;
+      text-align: center;
+      transition: all .3s ease;
+      margin: 0;
+  }
+
+  
+
+
+  }
+
+  @media screen and (max-width:440px){
+
+    td:nth-child(3)
+    {
+      display: none;
+    }
+    th:nth-child(3){
+      display: none;
+    }
+
+    .tame {
+
+      width: 50%;
+   
+  }
+
+  }
+
+
+
+
+

@@ -1,0 +1,85 @@
+
+          .addd{
+            padding: 10px;
+            background-color: #1eb2a1;
+            border-radius: 14px;
+            font-size: 16px;
+            width: 25%;
+            border: none;
+            color: #FFF;
+            text-align: center;
+          }
+   
+       
+
+    .morr{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+        margin: 0px 12px;
+    }
+    .morr .alll{
+        padding: 10px 15px;
+    background-color: #1eb2a1;
+    color: #FFF;
+    font-weight: 500;
+    border: none;
+    margin: 0 3px;
+    border-radius: 16px;
+    cursor: pointer;
+    /* box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%); */
+    transition: 0.5s;
+    font-size: 13px;
+    }
+  
+    .row22 .addd{
+        background-color: #1eb2a1;
+    }
+    .row22 .hello{
+        color: #1eb2a1;
+    }
+    
+         /* tbody .student td {
+            height: 49px;
+            border-bottom: 2px solid rgba(7, 32, 253, 0.18);;
+            color: #777;
+            font-size: 16px;
+            font-weight: bold;
+        
+        } */
+   
+        /* tr:last-child td {
+            border: none;
+        } */
+        /* .tf{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 90%;
+        } */
+       
+        /* .studentRow td{
+       
+            font-size: 13px;
+      
+        } */
+        /* .studentImage{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 3px;
+            text-align: center;
+        
+        }
+     */
+     .studentt td{
+        height: 40px;
+        border-bottom: 2px solid rgba(7, 32, 253, 0.18);
+        color: #FFF;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 8px;
+        background-color:#1eb2a1;
+    }
+     

@@ -1,0 +1,33 @@
+.contera{
+    /* background-image: url('../../../public/images/new/20.jpg');
+    background-size: cover;
+    background-position: center; */
+    background-color: #DDD;
+    width: 100%;
+    flex: 6 1;
+    height: 100vh;
+}
+.cellAction .vie{
+    font-size: 15px;
+    color: #FFF;
+    border-radius: 8px;
+}
+.cellAction .vie:hover{
+    background-color: #8b3dff;
+    padding: 2px 8px;
+}
+
+.tf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tf a{
+margin-top: 5px;
+}
+.rf{
+    color: #FFF;
+}
+.tarae th{
+    color: #8b3dff;
+}

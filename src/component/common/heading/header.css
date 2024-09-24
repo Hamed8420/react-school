@@ -1,0 +1,157 @@
+/*--------head------------*/
+header{
+  width: 95%;
+  text-align: center;
+
+}
+.headder{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+.meee{
+  width: 80px;
+  height: 80px;
+}
+.flexSBB{
+  width: 100%;
+}
+.head {
+    padding: 20px 0;
+    color: #fff;
+  }
+  .logo h1 {
+    font-size: 27px;
+    font-weight: 900;
+    color: #FFF;
+  }
+  .logo span{
+    font-size: 16px;
+    color: #FFF;
+  }
+  .head .icon {
+    margin-left: 10px;
+  }
+  /*--------head------------*/
+  /*--------header------------*/
+  header {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 0px;
+    border-radius: 24px;
+  }
+  header .nav {
+    display: flex !important;
+  }
+  header li {
+    margin-right: 40px;
+  }
+  header ul {
+    padding: 30px 20px;
+  }
+  header ul li a {
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+  }
+  header ul li a:hover {
+    color: #1eb2a6;
+  }
+  .start {
+    background-color: #1eb2a6;
+    padding: 30px 70px;
+    color: #fff;
+    clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
+    display: flex;
+  }
+  .start li a{
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+  }
+  .toggle {
+    display: none;
+  }
+  .button{
+    display: flex;
+  }
+  /*--------header------------*/
+.logo{
+  padding: 10px;
+  margin: 10px;
+}
+.mse{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.msee{
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+  @media screen and (max-width: 992px) {
+    header {
+ width: 90%;
+    }
+    ul.flexBB{
+      width: 90%;
+    }
+    header li{
+      margin-right: 15px;
+    }
+    .start{
+      padding: 30px;
+      clip-path: polygon(18% 0%, 100% 0%, 83% 100%, 0% 100%);
+    }
+    .logo{
+      margin: 0;
+      padding: 0;
+    }
+
+  }
+  @media screen and (max-width: 768px) {
+    .start {
+      clip-path: none;
+      background-color: transparent;
+      position: absolute;
+      right: 15px;
+      top: -18px;
+    }
+    .start li a{
+      font-size: 16px;
+      color: #1eb2a6;
+      font-weight: 600;
+    }
+    header {
+      margin: 0;
+      /* background-color: #1eb2a6; */
+      position: relative;
+    }
+    header ul.flexSBB {
+      display: none;
+      width: 70%;
+    }
+    header ul li {
+      margin-bottom: 20px;
+    }
+    .toggle {
+      display: block;
+      background: none;
+      color: #fff;
+      font-size: 30px;
+      position: absolute;
+      right: 12px;
+      top: 10px;
+  
+    }
+    .mobile-nav {
+      position: absolute;
+      top: 8vh;
+      left: 0;
+      width: 70%;
+      background-color: #1eb2a6;
+    }
+  }
+  

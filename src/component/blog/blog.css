@@ -1,0 +1,112 @@
+.blog .img{
+  width: 100%;
+  height: 40%;
+  border-radius: 0;
+  background-color: #FFF;
+  padding: 10px;
+}
+.blog .img img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .blog .text {
+    padding: 20px 10px;
+  }
+  .blog h1 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 5px 0;
+    transition: 0.5s;
+  }
+  .blog h1:hover {
+    color: #1eb2a6;
+    cursor: pointer;
+  }
+  .blog span {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #1eb2a6;
+  }
+  .blog span label {
+    margin-left: 10px;
+    color: grey;
+    font-size: 14px;
+  }
+  .blog span:nth-last-child(1) label {
+    color: #1eb2a6;
+  }
+  .blog p {
+    color: grey;
+  }
+  .itemss{
+    height: 450px;
+  }
+  
+
+  .subjecte{
+    display: flex;
+    height: 100%;
+    border-radius: 8px;
+  }
+  .subjecte .subimg{
+    height: 100%;
+    padding: 10px;
+    width: 90%;
+  }
+  .subjecte .subimg img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+  }
+  .subjecte .textt{
+    width: 100%;
+    margin-top: 5px;
+    text-align: start;
+    padding-left: 5px 10px;
+  }
+
+  .textt .teach h1{
+    color: #1eb2a6;
+  }
+  .textt .teach p{
+    color: #777;
+    padding: 0;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    text-align: start;
+  }
+
+  .textt .teach label{
+    color: #18847c;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+.admi{
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 5px; */
+  padding: 10px 0
+}
+.admi span{
+  width: 100%;
+  height: 100%;
+  margin-top: 3px;
+}
+.admi span a{
+
+  color: #18847c;
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 600;
+}
+
+
+  
+  

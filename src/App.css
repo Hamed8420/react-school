@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f8f8;
+  /* background-color: #858484 */
+
+}
+/*------------global-----------*/
+.contain {
+  max-width: 95%;
+  margin: auto;
+  margin-top: 0px;
+}
+.containet {
+  max-width: 95%;
+  margin: auto;
+  margin-top: 50px;
+}
+.flexSB {
+  display: flex;
+  justify-content: space-between;
+}
+.flexSBB {
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #1eb2a6;
+  transition: 0.5s;
+}
+.icon:hover {
+  cursor: pointer;
+  background-color: #1eb2a6;
+  color: #fff;
+}
+.pare{
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  align-items: center;
+ 
+}
+.pare a{
+  color: #1eb2a6;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.row {
+  width: 50%;
+}
+button {
+  font-weight: 600;
+  border: none;
+
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+  transition: 0.5s;
+}
+button i {
+  margin-left: 20px;
+}
+button:hover {
+  box-shadow: none;
+}
+.primary-btn {
+  background-color: #1eb2a6;
+  color: #fff;
+}
+
+/*------------global-----------*/
+#heading {
+  text-align: center;
+  padding: 40px 0;
+  margin-top: 20px;
+}
+#heading h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #1eb2a6;
+  text-transform: uppercase;
+}
+#heading h1 {
+  font-size: 40px;
+  margin: 15px 0;
+  text-transform: capitalize;
+}
+p {
+  line-height: 30px;
+  /* font-size: 18px; */
+}
+
+.back {
+  background-image: url("../public/images/back.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30%;
+  padding-right: 50px;
+  color: #fff;
+  text-align: center;
+}
+.back h1 {
+  font-size: 100px;
+  font-weight: 400;
+}
+.back h2 {
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.margin {
+  margin-top: 40.3%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 20px;
+}
+.flex {
+  display: flex;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+}
+.outline-btn {
+  margin-top: 20px;
+  box-shadow: none;
+  border: 2px solid #1eb2a6;
+  width: 100%;
+  transition: 0.5s;
+}
+.outline-btn:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+.padding {
+  padding: 80px 0;
+}
+.shadow {
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  background-color: #fff;
+}
+@media screen and (max-width: 992px) {
+  .contain{
+margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* .grid2,
+  .grid3,
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  } */
+  .back {
+    background-position: right;
+    padding-top: 50%;
+    height: 100vh;
+  }
+
+  .back h1 {
+    font-size: 50px;
+    font-weight: 400;
+  }
+  .back h2 {
+    /* font-size: 100px;
+    font-weight: 400; */
+  }
+  /* .hero {
+    background-position: right;
+    padding-top: 50%;
+    height: 100vh;
+  } */
+  .margin {
+    margin-top: 40vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /* .grid2,
+  .grid3,
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  } */
+  .back {
+    background-position: right;
+    padding-top: 50%;
+    height: 100vh;
+  }
+
+  .back h1 {
+display: none;
+  }
+  .back h2 {
+display: none;
+  }
+  /* .hero {
+    background-position: right;
+    padding-top: 50%;
+    height: 100vh;
+  } */
+  .margin {
+    margin-top: 40vh;
+  }
+}
+
+
+
+.videoes{
+  margin-top: 50px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+.containerrrrr{
+  height: 40px;
+  position: absolute;
+}
+
+.homeeee{
+  position: relative;
+  height: 0;
+}

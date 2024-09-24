@@ -1,0 +1,68 @@
+.live-stream-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .video-container {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .live-video {
+    width: 100%;
+  }
+  .rolee{
+    width: 250px;
+    height: 400px;
+  }
+  .students-container {
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .student-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  .containerrrrrrr{
+    display: flex;
+    position: absolute;
+  }
+  .containerrrrrrr button
+{
+  background-color: #000;
+  color: #FFF;
+  width: 50px;
+}
+  .student-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  .student-name {
+    font-weight: bold;
+  }
+  
+  .listening-indicator {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: green;
+  }

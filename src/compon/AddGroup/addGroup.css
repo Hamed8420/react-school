@@ -1,0 +1,149 @@
+.newGroup{
+  background-image: url('../../../public/images/3.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.new{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.groupe{
+  background-color: #1eb2a6;
+    height: 600px;
+    width: 80%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    border-radius: 8px;
+}
+.groupeee{
+  background-color: #1eb2a6;
+  height: 500px;
+  width: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  border-radius: 8px;
+}
+.groupe h2{
+  color: #FFF;
+  font-size: 23px;
+  padding: 10px;
+  text-align: start;
+  margin-top: 10px;
+}
+
+.groupeee h2{
+  color: #FFF;
+  font-size: 23px;
+  padding: 10px;
+  text-align: start;
+  margin-top: 10px;
+}
+.imggroupe{
+  text-align: center;
+  margin-top: 40px;
+  padding: 16px;
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  height: 17%;
+}
+.imagee{
+  background-color: rgba(255, 255, 255, 0.3);;
+  padding: 20px 30px;
+  margin-top: 10px;
+  border-radius: 8px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+}
+.imageeee{
+
+    padding: 20px 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #1e6b65;
+}
+.selectuser{
+  text-align: center;
+  padding: 20px;
+}
+
+.selectuser h3{
+  font-size: 25px;
+  color: #FFF;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.selectuser #groupName{
+  width: 70%;
+  height: 40px;
+  outline: none;
+  color: #18847c;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+}
+.gtr #people{
+  width: 100%;
+  height: 37px;
+  text-align: center;
+  outline: none;
+  color: #18847c;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+.gtr #people:hover{
+  height: 90px;
+
+}
+.gtr #people option{
+  text-align: center;
+  border-radius: 8px;
+}
+.buttonss{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  height: 50px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.3);;
+  text-align: center;
+  color: #FFF;
+  font-size: 16px;
+  align-items: center;
+  padding: 0;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.buttonsss{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #1e6b65;
+  text-align: center;
+  color: #FFF;
+  font-size: 16px;
+  align-items: center;
+  padding: 0;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+

@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+.questioL{
+
+        /* background-image: url('../../../public/images/new/19.jpg');
+        background-size: cover;
+        background-position: center; */
+        flex: 6 1;
+        height: 100vh;
+        background-color: #DDD;
+}
+
+.questionSu{
+background-color: #DDD;
+/* height: 100vh; */
+width: 100%;
+    flex: 6 1;
+}
+
+.save{
+
+    background-color: #8b3dff;
+    border-radius: 24px;
+    margin-top: 35px;
+        width: 600px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      margin-bottom: 20px;
+
+}
+    .adde{
+background-color: #4e1b9c;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 13px;
+    }
+        .ququ{
+            color: #FFF;
+            padding: 5px;
+            font-size: 20px;
+        }
+    
+      
+ 
+
+    .rtg {
+
+     color: #fff;
+     border: none;
+     width: 100%;
+
+     font-size: 15px;
+
+     padding: 10px;
+     text-align: center;
+     border-radius: 6px;
+     font-weight: 500;
+      }
+
+.heade{
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+
+}
+
+.hade{
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+
+
+}
+
+
+.heade::-webkit-scrollbar {
+    width: 10px; 
+
+    
+  }
+
+  
+.hade::-webkit-scrollbar {
+    width: 10px; 
+
+    
+  }
+  
+  .heade::-webkit-scrollbar-thumb {
+    background-color:#4e1b9c; 
+    border-radius: 4px;
+  }
+  .hade::-webkit-scrollbar-thumb {
+    background-color:#4e1b9c; 
+    border-radius: 4px;
+  }
+  
+  .heade::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+    border-radius: 4px;
+  }
+  .hade::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+    border-radius: 4px;
+  }
+
+
+
+    .question{
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px 20px;
+    }
+    .mar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+    }
+       .mar h3{
+        font-size: 16px;
+        color: #000;
+        font-family: sans-serif;
+        margin-bottom: 5px;
+        text-align: start;
+        font-weight: 500;
+    }
+        .mar span{
+            color: #4e1b9c;
+            font-weight: bold;
+            font-size: 16px;
+            background-color: #FFF;
+            padding: 2px 4px;
+            border-radius: 50%;
+        } 
+        
+        .options{
+            margin-left: 5px;
+        }
+
+        .option{
+            padding: 1px;
+        }
+            input{
+                margin-right: 3px;
+
+            }
+            .lab{
+                font-size: 16px;
+                cursor: pointer;
+                color: #FFF;
+               
+            }
+        
+
+        .Sender{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+        }
+
+.Sender button{
+    outline: none;
+    padding: 6px;
+    color: #FFF;
+    border-radius: 9px;
+    background-color:#4e1b9c;
+    margin-left: 4px;
+  }
+  .Sender button a{
+    color: #FFF;
+  }
+.sen{
+    margin-bottom: 5px;
+    width: 97%;
+    text-align: center;
+    background-color: #4e1b9c;
+    border-radius: 10px;
+}
+.sen button{
+    background-color: #4e1b9c;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    .save{
+        margin-left: 30%;
+        transform: translateX(-35%);
+        width: 475px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .save{
+        margin-left: 17%;
+        transform: translateX(-20%);
+        width: 350px;
+    }
+  }

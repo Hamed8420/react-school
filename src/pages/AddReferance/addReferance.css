@@ -1,0 +1,137 @@
+.cantanes{
+    background-image: url('../../../public/images/9.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 6 1;
+}
+
+.edites{
+    background-color: #6bb6b16b;
+    border-radius: 24px;
+    margin-top: 50px;
+    width: 600px;
+    /* height:500px; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+}
+.edites h2{
+    color: #FFF;
+    font-size: 17px;
+    margin-top: 20px;
+    width: 200px;
+    background: #18847c;
+    /* padding: 11px; */
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+}
+.editt{
+    background-color: #6bb6b16b;
+    border-radius: 24px;
+    margin-top: 50px;
+    width: 600px;
+    height: 630px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+}
+.editt h2{
+    color: #FFF;
+    font-size: 17px;
+    margin-top: 20px;
+    width: 200px;
+    background: #18847c;
+    /* padding: 11px; */
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.addref{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.gtr ::placeholder{
+    color: #18847c;
+ }
+.addref .lessonEdit{
+    width: 50%;
+    margin-bottom: 15px;
+    text-align: center;
+    height: 25px;
+    margin-top: 7px;
+}
+
+.addref .lessonEdit .filees{
+    padding: 10px 25px;
+    background-color: #CCC;
+    color: #18847c;
+    border-radius: 5px;
+    
+}
+.addref .lessonEdit label{
+    display: block;
+}
+.gtr{
+    width: 50%;
+    text-align: center;
+}
+.gtr h2{
+    font-size: 17px;
+    font-weight: 500;
+    background-color: transparent;
+margin-left: 50%;
+transform: translateX(-50%);
+margin-bottom: 2px;
+margin-top: 10px;
+width: 100%;
+}
+.gtr input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 6px 10px;
+    border-radius: 8px;
+    color: #18847c;
+}
+
+
+@media screen and (max-width:600px){
+
+    .edites {
+  
+      width: 70%;
+      height: 500px;
+  margin-left: 10px;
+  transform: translateX(0);
+  margin-top: 60px;
+  }
+    
+    
+    }
+
+    @media screen and (max-width:415px){
+
+        .edites {
+      
+            width: 60%;
+            margin-left: 30%;
+            transform: translateX(-50%);
+ 
+      }
+        
+        
+        }
